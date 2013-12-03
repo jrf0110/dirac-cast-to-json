@@ -1,0 +1,24 @@
+{
+  "name": "dirac-cast-to-json",
+  "version": "0.0.1",
+  "description": "Cast values to JSON before a db operation. Traverses schema for the specified types (default `json`) and sets up dirac before filters for the specified operations (default `insert`, and `update`) to JSON.stringify the values",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "keywords": [
+    "dirac",
+    "json"
+  ],
+  "author": "John Fawcett",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "mocha": "~1.15.1"
+  },
+  "peerDependencies": {
+    "dirac": "*"
+  }
+}
